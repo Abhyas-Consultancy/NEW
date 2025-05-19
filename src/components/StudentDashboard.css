@@ -1,0 +1,218 @@
+.student-dashboard {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffaf0;
+  color: #500000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #500000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #500000;
+  font-weight: 500;
+}
+
+.nav-button {
+  background-color: #500000;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #fceae6, #fff4f0);
+}
+
+.hero-left {
+  max-width: 50%;
+}
+
+.hero-left h1 {
+  font-size: 2.5rem;
+}
+
+.hero-left p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.hero-right {
+  text-align: center;
+  background-color: #500000;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.red-section {
+  background-color: #500000;
+  color: white;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.course {
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #fffaf0;
+  color: #500000;
+  font-weight: bold;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.content-card {
+  background-color: #fff4f0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.content-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-card p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.video-player {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 6px;
+}
+
+.view-btn {
+  display: inline-block;
+  background-color: #500000;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.content-item {
+  background-color: #fffaf0;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.alert-error {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.submission-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #500000;
+  box-shadow: 0 0 5px rgba(80, 0, 0, 0.2);
+}
+
+.submit-btn {
+  background-color: #500000;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 1.5rem 2rem;
+  background-color: #fffaf0;
+  color: #500000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #500000;
+  font-weight: 500;
+}
